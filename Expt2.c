@@ -1,0 +1,1 @@
+#include  <stdio.h>2 int  main() {3 int  a =  5, b =  10, c =  2, result1, result2;4 result1 =  a +  b *  c; 5 result2 =  (a +  b) *  c;6 printf("a + b * c = %d\n", result1);7 printf("(a + b) * c = %d\n", result2);8 int  x =  5, y =  10, z =  15;9 int  logicResult =  x <  y &&  y <  z; 10 printf("x < y && y < z = %d\n", logicResult);11 return  0;12 }
