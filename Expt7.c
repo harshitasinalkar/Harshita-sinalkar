@@ -1,1 +1,14 @@
-#include  <stdio.h>2 int  main() {3 int  number;4 printf("Enter a number: ");5 scanf("%d", &number);6 if  (number >  0) {7 printf("%d  is Positive\n", number);8 } else  if  (number <  0) {9 printf("%d  is Negative\n", number);10 } else  {11 printf("The number is Zero\n");12 }13 return  0;14 }
+#include <stdio.h>
+int  main() {
+int  number;
+  printf("Enter a number: ");
+  scanf("%d", &number);
+  if  (number >  0)  {
+    printf("%d  is Positive\n", number);
+  } else  if  (number <  0) {
+    printf("%d  is Negative\n", number);
+  } else  {
+    printf("The number is Zero\n");
+  }
+  return  0;
+}
