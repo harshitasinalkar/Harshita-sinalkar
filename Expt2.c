@@ -1,6 +1,5 @@
 #include  <stdio.h>
- int  main() 
-{
+ int  main() {
   int  a =  5, b =  10, c =  2, result1, result2;
   result1 =  a +  b *  c; 
   result2 =  (a +  b) *  c;
