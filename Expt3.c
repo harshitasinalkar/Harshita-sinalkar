@@ -1,1 +1,14 @@
-#include  <stdio.h>2 int  main() 3 {4 int  number;5 printf("Enter a number: ");6 scanf("%d", &number);7 if  (number %  2  ==  0) {8 printf("%d  is Even\n", number);9 } else10 {11 printf("%d  is Odd\n", number);12 }13 return  0;14 }
+#include  <stdio.h>
+int  main() 
+{
+  int  number;
+  printf("Enter a number: ");
+  scanf("%d", &number);
+  if  (number %  2  ==  0) {
+    printf("%d  is Even\n", number);
+  } else
+  {
+    printf("%d  is Odd\n", number);
+  }
+  return  0;
+}
